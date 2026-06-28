@@ -1,4 +1,6 @@
 const express = require("express");
+const userRouter=require("./routes/user")
+const bookRouter=require("./routes/books")
 const app = express();
 const PORT = 8081;
 
@@ -9,7 +11,9 @@ app.get("/", (req, res)=> {
         message: "Home Page :-)"
     })
 })
-// app.all('*',(req, res)=> {
+app.use('/users',userRouter);
+app.use('/books',bookRouter);
+    // app.all('*',(req, res)=> {
 //     res.status(500).json({
 //         message: "Not Built Yet"
 //     })
