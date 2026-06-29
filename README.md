@@ -58,3 +58,19 @@ npm run dev --> to start te appln
 
 To restore node_modules and package-lock.json --> npm i/npm install
 
+to install mongoose npm i mongoose
+npm i mongodb
+mongodb+srv://raghumohan538_db_user:<db_password>@cluster0.vmqro4n.mongodb.net/?appName=Cluster0
+rhHm9ByGgqePPJnk
+mongodb+srv://raghumohan538_db_user:rhHm9ByGgqePPJnk@cluster0.vmqro4n.mongodb.net/?appName=Cluster0
+npm i dotenv
+
+
+>> mvc architecture
+   >> model(structure of our mangoDb collection)
+   >>view(Frontend)
+   >>controller(Brain /logic of route)
+
+
+   >>DTO (Data TRansfer Object)
+   
